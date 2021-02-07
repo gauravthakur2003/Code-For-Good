@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+
+html {
+  color: #575988;
+  font-size: 1.5em;
+  background-color: #fffdf9;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    background-image:url(./Images/animation.gif);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+  margin-top:100px;
+  margin-bottom:30px;
+  padding-top:140 px;
+  padding-bottom: 30px;
+  text-align:center;
+  font-family:ZCOOL QingKe HuangYou;
+  font-size:65px;
+  color:#00b3b3;
+}
+
+.barone {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left:50px;
+  padding-right:50px;
+  background: #262626;
+  height:70px;
+  padding-top:20px;
+  padding-bottom:15px;
+  margin-right:0px;
+  margin-left:0px;
+}
+
+.barone li a {
+  color:#ffffff;
+  text-decoration: none;
+  font-family:Luckiest Guy;
+}
+
+.barone a:hover{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1)
+}
+
+.tech1,
+.tech2,
+.tech3,
+.tech4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px;
+  padding: 60px;
+}
+
+.pandemic {
+  font-family:Orbitron;
+  text-align:center;
+  padding-bottom:10px;
+  color:#cefa0a;
+}
+
+.font{
+  font-family:Lemonada;
+  color:#f2e9e9;
+  margin-left:50px;
+  text-align:center;
+}
+
+footer {
+    padding: 6px 40px 6px 40px;
+    background: #000d1a;
+    font-size: 22px;
+    text-decoration: right;
+    text-align:center;
+    min-height:60px;
+    padding-top:15px;
+    color:#ffffff;
+    font-family: "Architects Daughter";
+}
+
+.tech1 img,
+.tech2 img,
+.tech3 img,
+.tech4 img{
+  
+  float:right;
+  width: 40%;
+  padding: 10px;
+  margin:5px;
+  
+}
+
+
+
+
